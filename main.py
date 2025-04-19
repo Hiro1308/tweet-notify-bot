@@ -1,9 +1,10 @@
 import tweepy
 import requests
+import os
 
 # ==== TU TOKEN DE ACCESO (Bearer Token de Twitter API v2) ====
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAG7d0gEAAAAACSOGtZ5s4cys03UJUEX2uApQXwM%3Dk7o3MExSFTnAsW41CYJj9YyXpiPS5pktH1Yg5LhU9206FDZ6ma"
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1363050567579992256/O98OA_tjgCEt2zft-w0ElALkhI2qKcVw23H7CBgZpk2EH9mdPdAFIj2-LVYUJbzkSBNh"
+BEARER_TOKEN = os.getenv("BEARER_TOKEN")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # ==== Palabra clave a buscar ====
 PALABRA_CLAVE = "SUNSHIIIIIIIAAAAAAIIIIIN"
