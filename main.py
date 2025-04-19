@@ -3,7 +3,7 @@ import requests
 import os
 
 # ==== TU TOKEN DE ACCESO (Bearer Token de Twitter API v2) ====
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAG7d0gEAAAAAMV%2BnX8J8ENGP0VPcNPxA40UVUbE%3DHQkhzD0PjXXsApQShpqqUJ6Yu0FUAX16vga7khHf8doEHDwE5r"  # Pegar el token real solo para test
+BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAG7d0gEAAAAAMV+nX8J8ENGP0VPcNPxA40UVUbE=HQkhzD0PjXXsApQShpqqUJ6Yu0FUAX16vga7khHf8doEHDwE5r"  # Pegar el token real solo para test
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 
 # ==== Palabra clave a buscar ====
